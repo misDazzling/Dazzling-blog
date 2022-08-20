@@ -299,7 +299,7 @@ describe自己自由发挥。
 
 对应修改即可。
 
- ![在这里插入图片描述](https://img-blog.csdnimg.cn/062686a84a5343ff8a79a06db9a1de08.png)
+
 
 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/7098d8cd21e74d9b851cae07dd9d915f.png)
@@ -396,13 +396,7 @@ error忽略。
 
 
 
-新建仓库，名字最好是 
-
-```
-你的用户名.github.io
-```
-
- (免去很多配置)
+新建仓库，记得勾选add aREADME FILE。
 
  ![在这里插入图片描述](https://img-blog.csdnimg.cn/9091bc55051b49be871ab0b649e20c22.png)
 

@@ -5,20 +5,7 @@ module.exports = {
         {
             title: '我的朋友',
             links: [
-                {
-                    //网站标题
-                    title: "Aurora",
-
-                    //站点链接
-                    url: "https://aurora.xcye.xyz",
-
-                    //站点logo
-                    logo: "https://aurora.xcye.xyz/avatar.jpg",
-
-                    //站点描述
-                    describe: "人生若只是初见,何事秋风悲画扇",
-                    cover: '/friendimg/myself.png'
-                },
+              
                 {
                     title: "皮皮凛の小窝",
                     url: "https://owomoe.net/",
@@ -51,7 +38,7 @@ module.exports = {
 
                     //站点描述
                     describe: "人生若只是初见,何事秋风悲画扇",
-                    cover: '/friendimg/myself.png'
+                    cover: '/friendImg/myself.png'
                 },
                 {
                     //网站标题
@@ -67,13 +54,7 @@ module.exports = {
                     describe: "人生若只是初见,何事秋风悲画扇",
                     cover: '/friendImg/image-20211106100103898.png?x-oss-process=style/pictureProcess1'
                 },
-                {
-                    title: "左眼会陪右眼哭の博客",
-                    url: "http://qkongtao.cn/",
-                    logo: "http://qiniu.qkongtao.cn/2020/12/d11-e1628358435552.png",
-                    describe: "干嘛这么想不开，要在脸上贴个输字！",
-                    cover: '/friendImg/image-20211106101057042.png?x-oss-process=style/pictureProcess1'
-                },
+       
                 {
                     title: "I Am I",
                     url: "https://5ime.cn",
@@ -87,19 +68,12 @@ module.exports = {
             title: '小伙伴',
             links: [
                 {
-                    //网站标题
-                    title: "Aurora",
-
-                    //站点链接
-                    url: "https://aurora.xcye.xyz/",
-
-                    //站点logo
-                    logo: "https://aurora.xcye.xyz/avatar.jpg",
-
-                    //站点描述
-                    describe: "人生若只是初见,何事秋风悲画扇",
-                    cover: '/friendimg/myself.png'
-                },
+                    title: "左眼会陪右眼哭の博客",
+                    url: "http://qkongtao.cn/",
+                    logo: "http://qiniu.qkongtao.cn/2020/12/d11-e1628358435552.png",
+                    describe: "干嘛这么想不开，要在脸上贴个输字！",
+                    cover: '/friendImg/image-20211106101057042.png?x-oss-process=style/pictureProcess1'
+                }
             ]
         },
     ]
