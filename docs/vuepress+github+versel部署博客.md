@@ -1,4 +1,4 @@
-﻿---
+---
 # date是手动设置此篇文章编写的时间
 date: "2022/08/16 18:00"
 
@@ -6,7 +6,7 @@ date: "2022/08/16 18:00"
 coverUrl: "image/1.png"
 
 # 是否置顶
-sticky: true
+stick: true
 
 # 设置keyword 多个以,分开
 keyword: vuepress,GitHub,verce,搭建个人博客
@@ -248,7 +248,7 @@ describe自己自由发挥。
 
 配置时间轴，还是在config.js文件夹下。
 
- 
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/ebbf7d1fb0ae43dd8e1bc23823fd0f4d.png)
 
 点击里面的链接：如果连接是localhost:8080/archive
