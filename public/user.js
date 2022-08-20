@@ -1,0 +1,1 @@
+export let sites=[{title:"qsyyke",url:"https://blog.cco.vin",logo:"https://ooszy.cco.vin/img/blog-public/avatar.jpg",describe:"I do not follow,i lives is always all you want"}];
