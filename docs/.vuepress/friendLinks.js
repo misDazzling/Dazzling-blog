@@ -16,7 +16,7 @@ module.exports = {
                 {
                     title: "月月月子喵",
                     url: "https://haozi.moe",
-                    logo: "https://haozi.moe/assets/images/file_2431324-b742a16b6d596293c67a841af9f6fe83.png",
+                    logo: "https://haozi.moe/logo/base.ico",
                     describe: "可爱的月子酱",
                     cover: '/friendImg/image-20211106100009647.png?x-oss-process=style/pictureProcess1'
                 },

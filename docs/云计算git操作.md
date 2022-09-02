@@ -48,18 +48,31 @@ categories: [云计算实验]
 ## 🐳2.GitHub到本机
 
 🏆使用git指令同步github上的仓库
-🌸克隆现有的仓库
-🌸如果你想获得一份已经存在了的 Git 仓库的拷贝，比如说，你想为某个开源项目贡献自己的一份力，这时就要用到 git clone 命令。 如果你对其它的 VCS 系统（比如说 Subversion）很熟悉，请留心一下你所使用的命令是"clone"而不是"checkout"。 这是 Git 区别于其它版本控制系统的一个重要特性，Git 克隆的是该 Git 仓库服务器上的几乎所有数据，而不是仅仅复制完成你的工作所需要文件。 当你执行 git clone 命令的时候，默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来。 事实上，如果你的服务器的磁盘坏掉了，你通常可以使用任何一个克隆下来的用户端来重建服务器上的仓库 （虽然可能会丢失某些服务器端的钩子（hook）设置，但是所有版本的数据仍在，详见 在服务器上搭建 Git ）。
-🌸克隆仓库的命令是 git clone <url> 。 比如，要克隆 Git 的链接库CloudComputingExperiment ，可以用下面的命令：
 
-```bash
-$ git clone https://github.com/misDazzling/CloudComputingExperiment.git
-```
+🏆使用git指令同步github上的仓库
 
-使用git clone 不仅可以克隆该git仓库服务器上几乎所有的数据，而且默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来，可以建立本地和远程仓库的联系。
+<!--🌸克隆现有的仓库-->
+<!--🌸如果你想获得一份已经存在了的 Git 仓库的拷贝，比如说，你想为某个开源项目贡献自己的一份力，这时就要用到 git clone 命令。 如果你对其它的 VCS 系统（比如说 Subversion）很熟悉，请留心一下你所使用的命令是"clone"而不是"checkout"。 这是 Git 区别于其它版本控制系统的一个重要特性，Git 克隆的是该 Git 仓库服务器上的几乎所有数据，而不是仅仅复制完成你的工作所需要文件。 当你执行 git clone 命令的时候，默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来。 事实上，如果你的服务器的磁盘坏掉了，你通常可以使用任何一个克隆下来的用户端来重建服务器上的仓库 （虽然可能会丢失某些服务器端的钩子（hook）设置，但是所有版本的数据仍在，详见 在服务器上搭建 Git ）。-->
+<!--🌸克隆仓库的命令是 git clone <url> 。 比如，要克隆 Git 的链接库CloudComputingExperiment ，可以用下面的命令：-->
+
+<!--$ git clone https://github.com/misDazzling/CloudComputingExperiment.git-->
 
 
-🌸在管理Git项目上，很多时候都是直接使用https url克隆到本地，当然也有有些人使用SSH url克隆到本地。这两种方式的主要区别在于：使用https url克隆对初学者来说会比较方便，复制https url然后到git Bash里面直接用clone命令克隆到本地就好了，但是每次fetch和push代码都需要输入账号和密码，这也是https方式的麻烦之处。而使用SSH url克隆却需要在克隆之前先配置和添加好SSH key，因此，如果你想要使用SSH url克隆的话，你必须是这个项目的拥有者。否则你是无法添加SSH key的，另外ssh默认是每次fetch和push代码都不需要输入账号和密码，如果你想要每次都输入账号密码才能进行fetch和push也可以另外进行设置。
+
+<!--使用git clone 不仅可以克隆该git仓库服务器上几乎所有的数据，而且默认配置下远程 Git 仓库中的每一个文件的每一个版本都将被拉取下来，可以建立本地和远程仓库的联系。-->
+
+
+
+
+
+
+
+
+
+
+
+
+在管理Git项目上，很多时候都是直接使用https url克隆到本地，当然也有有些人使用SSH url克隆到本地。这两种方式的主要区别在于：使用https url克隆对初学者来说会比较方便，复制https url然后到git Bash里面直接用clone命令克隆到本地就好了，但是每次fetch和push代码都需要输入账号和密码，这也是https方式的麻烦之处。而使用SSH url克隆却需要在克隆之前先配置和添加好SSH key，因此，如果你想要使用SSH url克隆的话，你必须是这个项目的拥有者。否则你是无法添加SSH key的，另外ssh默认是每次fetch和push代码都不需要输入账号和密码，如果你想要每次都输入账号密码才能进行fetch和push也可以另外进行设置。
 
 🎨1）ssh方式：这是一种相对安全的方式
 这要求将本地的公钥上传到gitlab中，如下图：
