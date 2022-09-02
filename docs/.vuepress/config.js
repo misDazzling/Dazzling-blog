@@ -541,7 +541,7 @@ module.exports = {
         comment: {
             //是否显示评论
             showComment: true,
-            serverURL: 'https://waline-teal.vercel.app/',
+            serverURL: 'https://waline.misdazzling.fun/',
             emojis: [
                 'https://unpkg.com/@waline/emojis@1.0.1/qq',
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
