@@ -1,3 +1,5 @@
+import {withBase} from "@vuepress/client";
+
 export default {
     setAnimeImg(state,imgUrl) {
         this.state.animeImg = imgUrl.imgUrl
@@ -23,7 +25,6 @@ export default {
 
     },
     setFontFamilyStyle(state,fontFamilyStyle) {
-
         this.state.fontFamilyStyle = "--fontFamily: " + fontFamilyStyle.fontFamily + ";"
     },
     setIsFitter(state,isFitter) {

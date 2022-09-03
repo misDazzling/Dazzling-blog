@@ -1,11 +1,11 @@
 {
-  "name": "{{name}}",
+  "name": "demo-blog",
   "version": "1.0.0",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
-      "name": "{{name}}",
+      "name": "demo-blog",
       "version": "1.0.0",
       "license": "ISC",
       "dependencies": {
@@ -13,7 +13,7 @@
         "vuepress-plugin-bubble": "latest",
         "vuepress-plugin-coze": "1.8.0",
         "vuepress-plugin-player": "latest",
-        "vuepress-theme-aurora": "1.13.1"
+        "vuepress-theme-aurora": "^1.13.4"
       },
       "devDependencies": {
         "@vuepress/plugin-search": "2.0.0-beta.33",
@@ -6881,9 +6881,9 @@
       }
     },
     "node_modules/vuepress-theme-aurora": {
-      "version": "1.13.0",
-      "resolved": "https://registry.npmjs.org/vuepress-theme-aurora/-/vuepress-theme-aurora-1.13.0.tgz",
-      "integrity": "sha512-v1SXlQenBUlYpRIgvSE7qwOES6tzB1dp0yvs0TJykWHdHq24zqV1jm622JZQOnE6xA83TuSGNcI8n6w1e/NPgw==",
+      "version": "1.13.4",
+      "resolved": "https://registry.npmmirror.com/vuepress-theme-aurora/-/vuepress-theme-aurora-1.13.4.tgz",
+      "integrity": "sha512-C6Q427HLV8l/dApyjDI5w7IbGd9cqcvGx+yYFglQVp0HBHP1f9VPGoxJKrK/dHfIYpmcLOiCAfD49yDhUad+8Q==",
       "dependencies": {
         "@types/jquery": "^3.5.6",
         "@waline/client": "^1.3.10",
@@ -12778,8 +12778,9 @@
       }
     },
     "vuepress-theme-aurora": {
-      "version": "https://registry.npmjs.org/vuepress-theme-aurora/-/vuepress-theme-aurora-1.13.0.tgz",
-      "integrity": "sha512-v1SXlQenBUlYpRIgvSE7qwOES6tzB1dp0yvs0TJykWHdHq24zqV1jm622JZQOnE6xA83TuSGNcI8n6w1e/NPgw==",
+      "version": "1.13.4",
+      "resolved": "https://registry.npmmirror.com/vuepress-theme-aurora/-/vuepress-theme-aurora-1.13.4.tgz",
+      "integrity": "sha512-C6Q427HLV8l/dApyjDI5w7IbGd9cqcvGx+yYFglQVp0HBHP1f9VPGoxJKrK/dHfIYpmcLOiCAfD49yDhUad+8Q==",
       "requires": {
         "@types/jquery": "^3.5.6",
         "@waline/client": "^1.3.10",

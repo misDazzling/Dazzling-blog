@@ -68,6 +68,12 @@ module.exports = {
             link: '/link',
             iconClass: 'aurora-navbar-guide'
         },
+        
+        {
+            text: '留言板',
+            link: '/Messageboard/Messageboard.md',
+            iconClass: 'aurora-navbar-si-glyph-load'
+        },
        
     ]
 }

@@ -266,58 +266,38 @@ li {
 
 @font-face {
     font-family: lf;
-    src: url(https://ooszy.cco.vin/font/lf/lf.eot);
-    src: url(https://ooszy.cco.vin/font/lf/lf.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/lf/lf.woff) format("woff"), url(https://ooszy.cco.vin/font/lf/lf.ttf) format("truetype"), url(https://ooszy.cco.vin/font/lf/lf.svg?x-oss-process=style%2FpictureProcess1) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/lf.ttf);
 }
 
 @font-face {
     font-family: cgt;
-    src: url(https://ooszy.cco.vin/font/cgt/cgt.eot);
-    src: url(https://ooszy.cco.vin/font/cgt/cgt.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/cgt/cgt.woff) format("woff"), url(https://ooszy.cco.vin/font/cgt/cgt.ttf) format("truetype"), url(https://ooszy.cco.vin/font/cgt/cgt.svg#cgt) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/cgt.ttf);
+
 }
 
 @font-face {
     font-family: xsf;
-    src: url(https://ooszy.cco.vin/font/xsf/xsf.eot);
-    src: url(https://ooszy.cco.vin/font/xsf/xsf.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/xsf/xsf.woff) format("woff"), url(https://ooszy.cco.vin/font/xsf/xsf.ttf) format("truetype"), url(https://ooszy.cco.vin/font/xsf/xsf.svg#xsf) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/xsf.ttf);
 }
 
 @font-face {
     font-family: lsf;
-    src: url(https://ooszy.cco.vin/font/lsf/lsf.eot);
-    src: url(https://ooszy.cco.vin/font/lsf/lsf.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/lsf/lsf.woff) format("woff"), url(https://ooszy.cco.vin/font/lsf/lsf.ttf) format("truetype"), url(https://ooszy.cco.vin/font/lsf/lsf.svg#lsf) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/lsf.ttf);
 }
 
 @font-face {
     font-family: sst;
-    src: url(https://ooszy.cco.vin/font/sst/sst.eot);
-    src: url(https://ooszy.cco.vin/font/sst/sst.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/sst/sst.woff) format("woff"), url(https://ooszy.cco.vin/font/sst/sst.ttf) format("truetype"), url(https://ooszy.cco.vin/font/sst/sst.svg#sst) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/sst.ttf);
 }
 
 @font-face {
     font-family: tzt;
-    src: url(https://ooszy.cco.vin/font/tzt/tzt.eot);
-    src: url(https://ooszy.cco.vin/font/tzt/tzt.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/tzt/tzt.woff) format("woff"), url(https://ooszy.cco.vin/font/tzt/tzt.ttf) format("truetype"), url(https://ooszy.cco.vin/font/tzt/tzt.svg#tzt) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/tzt.ttf);
 }
 
 @font-face {
     font-family: hlt;
-    src: url(https://ooszy.cco.vin/font/hlt/hlt.eot);
-    src: url(https://ooszy.cco.vin/font/hlt/hlt.eot#iefix) format("embedded-opentype"), url(https://ooszy.cco.vin/font/hlt/hlt.woff) format("woff"), url(https://ooszy.cco.vin/font/hlt/hlt.ttf) format("truetype"), url(https://ooszy.cco.vin/font/hlt/hlt.svg#hlt) format("svg");
-    font-style: normal;
-    font-weight: 400
+    src: url(../public/fonts/style-menu/hlt.ttf);
 }
 
 #app a {
@@ -426,7 +406,7 @@ li {
     right: 2.5rem;
     cursor: pointer;
     z-index: 9;
-    background-image: url(https://ooszy.cco.vin/img/blog-note/color-filling.svg);
+    background-image: url(../public/fonts/style-menu/color-filling.svg);
     background-repeat: no-repeat;
     background-size: 70%;
     background-position: 50%
@@ -717,8 +697,6 @@ li {
     display: block;
     z-index: 2;
     margin: 0 auto;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
     border-radius: var(--borderRadius);
     overflow: hidden
 }
@@ -1046,21 +1024,24 @@ li {
     position: relative;
     color: #fff;
     font-weight: 700;
-    -webkit-animation: link-bottom .5s;
-    animation: link-bottom .5s;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards
+    /*-webkit-animation: link-bottom .5s;*/
+    /*animation: link-bottom .5s;*/
+    /*-webkit-animation-iteration-count: 1;*/
+    /*animation-iteration-count: 1;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards*/
+    transition: color 900ms;
 }
 
 .link-bottom:hover {
-    -webkit-animation: link-bottom-hover .9s;
-    animation: link-bottom-hover .9s;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards
+    color: var(--aurora-global-active-color);
+    transition: color 0.9s;
+    /*-webkit-animation: link-bottom-hover .9s;*/
+    /*animation: link-bottom-hover .9s;*/
+    /*-webkit-animation-iteration-count: 1;*/
+    /*animation-iteration-count: 1;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards*/
 }
 
 @-webkit-keyframes link-bottom-hover {
@@ -3974,15 +3955,22 @@ body::-webkit-scrollbar-thumb {
     color: var(--fontColor)
 }
 
+.navbar-links-item .aurora-navbar-icon,
+.navbar-links-item .dropdown-wrapper .dropdown-title,
+.navbar-links-item .nav-link-active {
+    transition: color 500ms;
+}
+
 .navbar-links-item:hover .aurora-navbar-icon,
 .navbar-links-item:hover .dropdown-wrapper .dropdown-title,
 .navbar-links-item:hover .nav-link-active {
-    -webkit-animation: navbar-link-item-hover .5s;
-    animation: navbar-link-item-hover .5s;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
+    /*-webkit-animation: navbar-link-item-hover .5s;*/
+    /*animation: navbar-link-item-hover .5s;*/
+    /*-webkit-animation-iteration-count: 1;*/
+    /*animation-iteration-count: 1;*/
+    /*-webkit-animation-fill-mode: forwards;*/
+    /*animation-fill-mode: forwards;*/
+    color: var(--aurora-global-active-color);
     cursor: pointer
 }
 
@@ -5503,4 +5491,289 @@ body::-webkit-scrollbar-thumb {
 
 .box {
     margin-bottom: 3rem;
+}
+
+#article-page {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/*v1.13版本增加样式*/
+
+/* 这是幻灯片组件的样式 */
+.aurora-slide-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh);
+    width: 100%;
+    /* background-color: rgb(148, 85, 85); */
+}
+
+.aurora-slide-body::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -2;
+    width: 100%;
+    background-image: var(--aurora-slide-bgImg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 2s;
+    background-position: center;
+    background-attachment:fixed;
+
+}
+.aurora-slide-body {
+    transition: all 2s;
+}
+
+.aurora-slide-radius {
+    border-radius: var(--aurora-sliid-border-radius);
+}
+
+.aurora-slide-shade {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: calc(80vh);
+    background-color: rgba(236, 228, 228,0);
+}
+
+.aurora-slide-box {
+    position: relative;
+    z-index: 1;
+    width: 90%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.aurora-slide-box-style-box {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    height: 80%;
+    border-radius: var(--aurora-sliid-border-radius);
+    overflow: hidden;
+    filter: drop-shadow(5px 10px 20px rgba(0,0,0,.3))
+}
+
+.aurora-slide-box-style {
+    width: 100%;
+    height: 100%;
+    border-radius: var(--aurora-sliid-border-radius);
+    background-image: var(--aurora-slide-bgImg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    filter: blur(10px);
+
+}
+
+.aurora-slide-box:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.aurora-slide-item {
+    width: 100%;
+    height: 100%;
+    /*background-image: linear-gradient(to right top, #fff1eb 0%, #ace0f9 100%);*/
+}
+
+.aurora-slide-item-son {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.aurora-slide-item-top {
+    cursor: default;
+    height: 7rem;
+    width: 100%;
+    /*padding-top: 1rem;*/
+    /*padding-bottom: 2rem;*/
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.aurora-slide-item-top-left {
+    width: 8.5rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+}
+
+.aurora-slide-item-top-avatar img {
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 500ms;
+}
+
+.aurora-slide-item-top-avatar img:hover {
+    transform: rotate(360deg);
+}
+
+.aurora-slide-item-top-right {
+    height: 7rem;
+    width: 100%;
+}
+
+.aurora-slide-item-top-title {
+    min-height: 65%;
+    height: auto;
+    line-height: 4.55rem;
+}
+
+.aurora-slide-item-top-title span {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.aurora-slide-item-top-tag {
+    max-height: 35%;
+    height: auto;
+    line-height: 2.45rem;
+    overflow-x: scroll;
+}
+
+.aurora-slide-item-top-tag::-webkit-scrollbar {
+    display: none;
+}
+
+.aurora-slide-item-top-tag span {
+    font-size: 1.2rem;
+    margin-right: 1rem
+}
+
+.aurora-slide-item-top-tag span:last-child {
+    margin-right: 0;
+}
+
+
+.aurora-slide-top-common {
+    height: max-content;
+    max-height: 50%;
+}
+
+.aurora-slide-item-bottom {
+    box-sizing: border-box;
+    overflow-y: scroll;
+    height: 25rem;
+    width: 100%;
+    padding-top: 1rem;
+    /*background: rgba(210, 118, 146, 0.79);*/
+    /*border-bottom-right-radius: var(--aurora-sliid-border-radius);*/
+    /*border-bottom-left-radius: var(--aurora-sliid-border-radius);*/
+    /*border-top-right-radius: var(--aurora-sliid-border-radius);*/
+}
+
+.aurora-slide-item-bottom::-webkit-scrollbar {
+    display: none;
+}
+
+.aurora-slide-item-desc-common {
+
+    /* background-color: red; */
+
+}
+
+/* 设置新版的关于页面bar条状样式 */
+
+.aurora-slide-item-bar-li {
+    padding-bottom: 10px;
+    list-style: none;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.aurora-slide-item-bar-li span:first-child {
+    display: inline-block;
+    width: 15%;
+    /* margin-right: 3px */
+}
+
+.aurora-slide-item-bar-li span:nth-child(2) {
+    display: inline-block;
+    height: .9rem;
+    background-color: red;
+    border-radius: 10px;
+    text-align: left;
+    line-height: .9rem;
+    width: 82%;
+    padding-left: 3%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.aurora-slide-item-desc-text li {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+.aurora-slide-item-font-common {
+    font-weight: var(--aurora-slide-font-weight);
+    color: var(--aurora-slide-font-color);
+    font-size: var(--aurora-slide-font-size);
+}
+
+.aurora-slide-item-desc-text li:last-child {
+    margin-bottom: 0;
+
+}
+
+/*设置新版关于页面，手机端样式*/
+@media screen and (max-width:719px) {
+    .aurora-slide-shade {
+        width: 100%;
+        position: fixed;
+        height: 100%;
+        right: 0;
+        top: 0;
+    }
+
+    .aurora-slide-box-style-box {
+        width: 93%;
+    }
+
+    .aurora-slide-box {
+        width: 93%;
+    }
+
+    .aurora-slide-item-top-right {
+        overflow: hidden;
+    }
+
+    .aurora-slide-item-top-title {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .aurora-slide-item-top-title span {
+        font-size: var(--aurora-slide-mobile-font-size);
+    }
+
+    .aurora-slide-item-top-tag span {
+        font-size: 15px;
+    }
+
+    .aurora-slide-item-font-common {
+        font-size: 15px;
+    }
+
+
 }

@@ -17,12 +17,12 @@ module.exports = {
         //自己的头像
         contact: "email: misdazzling01@gmail.com, qq:3170283180",
         otherDescribe: [
-            '申请友链请按照下面格式，在此页面留言，我看到就会进行添加',
+            '申请友链请按照下面格式，在留言板界面留言，我看到就会进行添加',
             '博客名称    博客地址      博客描述      博客logo',
             '友链申请要求',
             '拒绝涉政/涉黄/太多广告/盈利性站点',
             '站点能正常访问',
-            '这是一个网站的测试<a href="https://misdazzling.vercel.app" target="_blank">这是一个链接</a>'
+            '这是一个网站的测试<a href="https://misdazzling.fun" target="_blank">这是一个链接</a>'
         ]
     }
 }

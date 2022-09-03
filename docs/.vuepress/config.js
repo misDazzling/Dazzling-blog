@@ -63,7 +63,7 @@ module.exports = {
         [
             "archive",
             {
-                excludes: ['/footer.html','/404.html','/about/','/archive/','/aurora-archive/','/aurora-coze/','/aurora-music/','/mood/','/link/','/next-mood/','/register/','/tag/','/photo/','/index.html','/'],
+                excludes: ['/footer.html','/404.html','/about/','/archive/','/aurora-archive/','/aurora-coze/','/aurora-music/','/mood/','/link/','/next-mood/','/register/','/tag/','/photo/','/index.html','/','/Messageboard/Messageboard.html'],
                 noTitle: '暂时没有标题配置'
             }
         ],
@@ -209,7 +209,7 @@ module.exports = {
         darkMode: false,
 
         //项目地址，会在顶部导航栏和侧边栏显示GitHub的地址
-        repo: "https://github.com/qsyyke/vuepress-theme-aurora",
+        repo: "https://github.com/misdazzling/Dazzling-blog",
 
         //自定义GitHub的图标
         repoIconClass: 'aurora-navbar-github',
@@ -228,7 +228,7 @@ module.exports = {
         docsBranch: 'main',
 
         //顶部导航栏，你repo地址的超链接文本
-        repoLabel: "Aurora-theme",
+        repoLabel: "Dazzling",
 
         //是否启用文章在线编辑，默认开启，会在每篇文章的底部，创建一个链接，指向该md在GitHub中的edit地址
         editLink: true,
@@ -586,50 +586,17 @@ module.exports = {
         //自定义顶部图片
         customTopImg: {
             //是否启用定制顶部图片，控制全局，如果关闭，那么将使用随机图片，随机图片接口可以自己设置
-            custom: false,
+            custom: true,
 
             //文章顶部图片，数组，每次从数组中随机选择一张
             page: [
-                "/bg/555260.png",
-                '/bg/404901.png',
-                '/bg/12.jpeg',
-                '/bg/13.jpeg',
-                '/bg/14.jpeg',
-                '/bg/15.jpeg',
-                '/bg/16.jpeg',
-                '/bg/17.jpeg',
-                '/bg/40.jpeg',
-                '/bg/41.jpeg',
-                '/bg/42.jpeg',
-                '/bg/43.jpeg',
-                '/bg/44.jpeg',
-                '/bg/45.jpeg',
-                '/bg/46.jpeg',
-                '/bg/47.jpeg',
-                '/bg/48.jpeg',
-                '/bg/49.jpeg',
-                '/bg/51.jpeg',
-                '/bg/52.jpeg',
-                '/bg/100.jpeg',
-                '/bg/101.jpeg',
-                '/bg/102.jpeg',
-                '/bg/103.jpeg',
-                '/bg/104.jpeg',
-                '/bg/105.jpeg',
-                '/bg/106.jpeg',
-                '/bg/107.jpeg',
-                '/bg/108.jpeg',
-                '/bg/109.jpeg',
-                '/bg/110.jpeg',
-                '/bg/111.jpeg',
-                '/bg/112.jpeg'
+                
             ],
             //友情链接页面
             friend: [
                 "/bg/669.png",
                 '/bg/5332.png',
                 '/bg/40.jpeg',
-                '/bg/41.jpeg',
                 '/bg/42.jpeg',
                 '/bg/43.jpeg',
                 '/bg/44.jpeg',
@@ -659,7 +626,6 @@ module.exports = {
             tag: [
                 "/bg/5849.png",
                 '/bg/40.jpeg',
-                '/bg/41.jpeg',
                 '/bg/42.jpeg',
                 '/bg/43.jpeg',
                 '/bg/44.jpeg',
@@ -716,7 +682,6 @@ module.exports = {
             '/bg/5.jpeg',
             '/bg/6.jpeg',
             '/bg/40.jpeg',
-            '/bg/41.jpeg',
             '/bg/42.jpeg',
             '/bg/43.jpeg',
             '/bg/44.jpeg',
