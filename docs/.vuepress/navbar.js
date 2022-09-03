@@ -62,7 +62,11 @@ module.exports = {
                 },
             ],
         },
-
+        {
+            text: '标签',
+            link: '/tag',
+            iconClass: 'aurora-navbar-shoulijindu-xuanzhong'
+        },
         {
             text: '友情链接',
             link: '/link',
