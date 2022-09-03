@@ -5,7 +5,7 @@ module.exports = {
         title: "Dazzling",
 
         //自己站点链接
-        url: "https://misdazzling.vercel.app",
+        url: "https://misdazzling.fun",
 
         //自己站点logo
         logo: "/avatar.jpg",

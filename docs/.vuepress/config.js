@@ -295,7 +295,7 @@ module.exports = {
                 bar: false,
                 title: "我?",
                 describe: [
-                    "目前是一名大四学生,CS专业,坐标东部沿海",
+                    "目前是一名学生,CS专业,坐标东部沿海",
                     "喜欢安静,不喜社交",
                     "喜欢听音乐,什么类型都可",
                     "喜欢技术,coding",
@@ -319,12 +319,12 @@ module.exports = {
             {
                 bgImg: '/bg/1.jpg',
                 bar: false,
-                title: "大四规划",
+                title: "今年规划",
                 describe: [
                     "做项目",
                     "cnvd证书",
                     "英语六级",
-                    "考研上岸",
+                    "前后端学习",
                     "做点什么有意义的事",
                 ],
                 tag: ["大家加油呀`Σ(￣□￣||)` ..."],
@@ -555,16 +555,16 @@ module.exports = {
         //海报分享配置
         poster: {
             //博客描述
-            description: "vuepress-theme-Aurora是一款简洁，美观，功能强大的静态主题",
+            description: "这是Dazzling的博客",
 
             //作者
-            author: "qsyyke",
+            author: "Dazzling",
 
             //博客前缀
-            preBlog: "Aurora",
+            preBlog: "Dazzling",
 
             //海报博客名称后缀
-            suffixBlog: " theme",
+            suffixBlog: " blog",
 
             //头像，请放置在docs/public目录下，或者请保证此图片链接能够跨域访问，否则头像不能正常显示
             avatar: "/avatar.jpg",
@@ -932,7 +932,7 @@ module.exports = {
         homeTopText: '置顶',
 
         //侧边栏一句话描述
-        sidebarDesc: 'web安全，Coding，目前是一名大四学生,CS专业,坐标东部沿海。',
+        sidebarDesc: 'web安全，Coding，目前是一名学生,CS专业,坐标东部沿海。',
 
         /*
         * 下面的是v1.13.0版本的配置
