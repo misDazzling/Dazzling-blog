@@ -586,7 +586,7 @@ module.exports = {
         //自定义顶部图片
         customTopImg: {
             //是否启用定制顶部图片，控制全局，如果关闭，那么将使用随机图片，随机图片接口可以自己设置
-            custom: true,
+            custom: false,
 
             //文章顶部图片，数组，每次从数组中随机选择一张
             page: [
@@ -825,7 +825,7 @@ module.exports = {
         //excludeTag: ["note"], 此配置项，不再需要使用
 
         //在统计文章，标签，类别的时候，需要排除的路径，只针对于根目录下的路径，
-        excludePath: ['/footer.html','/v1.3.0/','/plugin/',"/node.html","/style.html"],
+        excludePath: ['/footer.html','/v1.3.0/','/plugin/',"/node.html","/style.html",'/Messageboard/Messageboard.html'],
 
         //类别项是否包含文件夹名，默认包含
         categoriesIncludeFolderName: false,
