@@ -480,14 +480,16 @@ module.exports = {
         //页脚信息，支持HTML，这是一个数组
         footer: [
             "Copyright © by Dazzling All Rights Reserved.",
+           "<div><a href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'>本网站由<img src='/logos/又拍云_logo2.png' width='45px' />提供CDN加速/云存储服务</a></div>"
            
+
         ],
 
         //是否显示页脚，控制全局
         isShowFooter: true,
 
         //是否显示主题信息在页脚，为false关闭
-        isShowThemeCopyright: true,
+        isShowThemeCopyright: false,
 
         //是否展示运行时间
         isShowRunTime: true,
