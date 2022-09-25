@@ -1,5 +1,5 @@
 <template>
-  <Common :is-sticky-sidebar="true" :is-show-top-img="true"
+  <Common :is-sticky-sidebar="true" :is-show-top-img="false"
           :show-tag-cloud="false" :is-show-side-bar="false">
     <template #center1>
       <BCenter>

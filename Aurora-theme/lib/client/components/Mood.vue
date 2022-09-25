@@ -1,6 +1,6 @@
 <template>
   <common :is-sticky-sidebar="true" :show-sidebar-animate-class="false"
-          :is-show-side-bar="false" :is-show-top-img="true" :is-show-head-line="false">
+          :is-show-side-bar="false" :is-show-top-img="false" :is-show-head-line="false">
     <template #center1>
       <!--<CozeLogin @coze-login="cozeLogin"></CozeLogin>-->
       <CozeMood @coze-cancel-edit="cozeCancelEdit" @mood-edit="moodEdit" @coze-success="cozeSuccess"></CozeMood>

@@ -1,7 +1,7 @@
 <template>
   <common :is-sticky-sidebar="true" :is-show-side-bar="false"
           :show-sidebar-link="false"
-          :is-show-top-img="true" :is-show-head-line="false">
+          :is-show-top-img="false" :is-show-head-line="false">
     <template #center1>
       <div class="link" :data="linkItem.title" :key="linkItem.title" v-for="(linkItem,linkIndex) in themeProperty.friendLinks">
         <div :style="$store.state.borderRadiusStyle + $store.state.opacityStyle"

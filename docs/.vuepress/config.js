@@ -47,9 +47,9 @@ module.exports = {
         [
             "coze",
             {
-                appId: 'LPSt9ub5kmaLLJ8X9EOv1sUr-MdYXbMMI',//你需要在leancloud中创建自己的appId，请参照文档https://aurora.xcye.xyz/plugin/coze/
-                appKey: 'wU2otwNwJo39v7Eeen4WKyNr',
-                masterKey: 'fj7MdWloYNcFtJ8eTt9u5c8D',
+                appId: 'C7XyzJ2HIN87UMF3kpBmYD13-gzGzoHsz',//你需要在leancloud中创建自己的appId，请参照文档https://aurora.xcye.xyz/plugin/coze/
+                appKey: 'YI2nMnt8QtiavwoGTqI4TT23',
+                masterKey: 'csPfVzfWe16c4mj1oDYtbTcG',
                 //下面这些是可选的
                 avatarPath: '/avatar.jpg',//说说头像url
                 registerPath: '/register', //自定义插件默认提供的注册页面路由，请在前面加上/
@@ -900,9 +900,9 @@ module.exports = {
          * 和vuepress-plugin-coze插件使用同一个应用
          * */
         leanCloud: {
-            appId: 'LPSt9ub5kmaLLJ8X9EOv1sUr-MdYXbMMI',
-            appKey: 'wU2otwNwJo39v7Eeen4WKyNr',
-            masterKey: 'fj7MdWloYNcFtJ8eTt9u5c8D',
+            appId: 'C7XyzJ2HIN87UMF3kpBmYD13-gzGzoHsz',
+            appKey: 'YI2nMnt8QtiavwoGTqI4TT23',
+            masterKey: 'csPfVzfWe16c4mj1oDYtbTcG',
         },
 
 
