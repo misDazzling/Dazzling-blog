@@ -543,7 +543,7 @@ module.exports = {
         comment: {
             //是否显示评论
             showComment: true,
-            serverURL: 'https://waline.misdazzling.fun/',
+            serverURL: 'https://waline.misdazzling.cn/',
             emojis: [
                 'https://unpkg.com/@waline/emojis@1.0.1/qq',
                 'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
