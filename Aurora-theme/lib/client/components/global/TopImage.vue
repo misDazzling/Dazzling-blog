@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar-single-enter-animate page-top" v-if="isShowTopImg" id="page-top">
-    <div class="top-mask" :style="setBackgroundUrl"></div>
+    <!--<div class="top-mask" :style="setBackgroundUrl"></div>上方置顶的图片-->
 
     <div v-if="showBubble" class="aurora-top-bubble">
       <div class="aurora-top-bubble-par">
