@@ -106,9 +106,9 @@ export default {
       themeConfig: '',
       poster: '',
       imgHeight: 'height: 90%;',
-      picture: "",
-      pictureSrc: 'https://h2.ioliu.cn/bing/Knuthojdsmossen_EN-CA12064544039_640x480.jpg?imageslim',
-      postImgApi: 'https://unsplash.it/1600/900?random'
+      picture: "/bg/104.jpeg",
+      pictureSrc: 'http://localhost:8080/bg/104.jpeg',
+      postImgApi: 'https://api.ixiaowai.cn/api/api.php'
     }
   },
   props: {
@@ -184,10 +184,10 @@ export default {
     },
     getLogoTitle() {
       if(this.poster === undefined || this.poster == null) {
-        return 'qsyyke'
+        return 'Dazzling'
       }else {
         if(this.poster.preBlog === undefined || this.poster.preBlog == null) {
-          return 'qsyyke'
+          return 'Dazzling'
         }else {
           return this.poster.preBlog
         }
@@ -206,10 +206,10 @@ export default {
     },
     getAuthor() {
       if(this.poster === undefined) {
-        return 'Aurora'
+        return 'Dazzling'
       }else {
         if(this.poster.author === undefined) {
-          return 'Aurora'
+          return 'Dazzling'
         }else {
           return this.poster.author
         }
