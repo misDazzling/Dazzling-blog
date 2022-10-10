@@ -33,7 +33,7 @@ export default {
       clickStatus: false,
       spanData: -2,
       themeConfig: '',
-      postImgApi: 'https://unsplash.it/1600/900?random'
+      postImgApi: 'http://localhost:8080/bg/104.jpeg'
     }
   },
   props: {
