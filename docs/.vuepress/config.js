@@ -102,11 +102,13 @@ module.exports = {
 
                         {
                             path: '/song/2.mp3',
-                            songName: '疮痍的目光-刘梓炎'
+                            songName: '疮痍的目光-刘梓炎',
+                            cover: 'https://p1.music.126.net/Rg1x9LeUacIDqtvUzL35Cw==/109951163688517312.jpg'
                         },
                         {
                             path: '/song/3.mp3',
-                            songName: '暗恋是一个人的事-宿羽阳'
+                            songName: '暗恋是一个人的事-宿羽阳',
+                            cover: 'https://p1.music.126.net/Rg1x9LeUacIDqtvUzL35Cw==/109951163688517312.jpg'
                         },
                     ]
                 }
