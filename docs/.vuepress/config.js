@@ -156,6 +156,10 @@ module.exports = {
             {
                 src: "https://at.alicdn.com/t/font_2849934_v6y652peian.js",
             },
+            "script",
+            {
+                src: "/js/51.js",
+            },
         ],
         //设置站点icon
         [
@@ -484,6 +488,7 @@ module.exports = {
             "Copyright © by Dazzling All Rights Reserved.",
            "<div><a href='https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral'>本网站由<img src='/logos/又拍云_logo2.png' width='45px' />提供CDN加速/云存储服务</a></div>",
            "<div><a href='http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=2021030320'>鲁ICP备2021030320号-2</a></div>"
+           
         ],
 
         //是否显示页脚，控制全局
