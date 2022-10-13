@@ -156,6 +156,9 @@ module.exports = {
             {
                 src: "https://at.alicdn.com/t/font_2849934_v6y652peian.js",
             },
+          
+        ],
+        [
             "script",
             {
                 src: "/js/51.js",
