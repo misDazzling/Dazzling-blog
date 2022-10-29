@@ -554,11 +554,12 @@ module.exports = {
             showComment: true,
             serverURL: 'https://waline.misdazzling.cn/',
             emojis: [
-                'https://unpkg.com/@waline/emojis@1.0.1/qq',
-                'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/alus',
-                'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/bilibili',
-                'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/tieba',
-                'https://cdn.jsdelivr.net/gh/walinejs/emojis@1.0.0/weibo'
+                '//unpkg.com/@waline/emojis@1.1.0/qq',
+                '//unpkg.com/@waline/emojis@1.1.0/bilibili',
+                '//unpkg.com/@waline/emojis@1.1.0/weibo',
+                '//unpkg.com/@waline/emojis@1.1.0/bmoji',
+                
+               
             ],
             avatar: 'monsterid'
         },
